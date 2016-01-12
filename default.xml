@@ -13,7 +13,7 @@
   <project path="external/remoteconf" name="codewalkerster/android_external_remoteconf" revision="s805_4.4.2_master" remote="github"/>
 
   <remote name="alexpro" fetch="https://github.com/alexpro"/>
-  <project path="device/brcm/rpi2" name="device_brcm_rpi2" revision="kitkat" remote="alexpro" />
+  <project path="device/brcm/rpi2" name="device_brcm_rpi2" revision="lollipop" remote="alexpro" />
 
   <remote name="peyo" fetch="https://github.com/peyo-hd"/>
   <remove-project name="platform/external/tinyalsa" />
