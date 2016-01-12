@@ -12,6 +12,9 @@
   <project path="hardware/amlogic/mali" name="codewalkerster/android_hardware_amlogic_mali" revision="s805_4.4.2_master" remote="github"/>
   <project path="external/remoteconf" name="codewalkerster/android_external_remoteconf" revision="s805_4.4.2_master" remote="github"/>
 
+  <remote name="alexpro" fetch="https://github.com/alexpro"/>
+  <project path="device/brcm/rpi2" name="device_brcm_rpi2" revision="kitkat" remote="alexpro" />
+
   <remote name="peyo" fetch="https://github.com/peyo-hd"/>
   <remove-project name="platform/external/tinyalsa" />
   <project path="external/tinyalsa" name="external_tinyalsa" revision="nbox" remote="peyo" />
@@ -19,12 +22,11 @@
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="vc4" remote="peyo"/>
   <project path="external/drm_gralloc" name="external_drm_gralloc" revision="vc4" remote="peyo"/>
-  <!-- <remove-project name="platform/external/drm_hwcomposer"/> -->
+  <remove-project name="platform/external/drm_hwcomposer"/>
   <project path="external/drm_hwcomposer" name="external_drm_hwcomposer" revision="vc4" remote="peyo"/>
 
   <project path="kernel/rpi" name="kernel_rpi" revision="vc4" remote="peyo"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="master" remote="peyo"/>
-  <project path="device/brcm/rpi2" name="device_brcm_rpi2" revision="lollipop" remote="peyo"/>
 
   <project path="kernel/odrc" name="kernel_odrc" revision="lollipop" remote="peyo"/>
   <project path="hardware/amlogic" name="hardware_amlogic" revision="master" remote="peyo"/>
